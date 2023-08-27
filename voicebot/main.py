@@ -48,7 +48,7 @@ def takeCommand():
             print(f" User said: {query}")
             return query
         except Exception as e:
-            return speaker.Speak("Kuch Samajh Nahi aya, fir se Bol BHOSDI-K")
+            return speaker.Speak("Can't understand.. please repeat again")
 
 if __name__ == '__main__':
     speaker.Speak("Hi, I am Hidden Group Member, How can I help you today?")
