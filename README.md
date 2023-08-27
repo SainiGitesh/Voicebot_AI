@@ -1,1 +1,1 @@
-This is a voice assistant created by using openai and python
+This is a voice assistant created by me using openai and python
